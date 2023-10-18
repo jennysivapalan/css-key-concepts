@@ -1,3 +1,44 @@
 body {
-  color: green;
+  background-color: #cbc3e3;
+  margin: 0;
+}
+
+h1.welcome {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin: 0;
+  background-color: purple;
+}
+
+.sections {
+  display: inline-block;
+  background: #ce8888;
+  width: 200px;
+  height: 500px;
+  margin: 0;
+  padding: 0%;
+}
+
+.nav-bar {
+  display: inline-block;
+  width: 24%;
+  min-width: 40px;
+  height: 100%;
+  background: khaki;
+
+  border: solid;
+  vertical-align: top;
+}
+
+.content-sections {
+  display: inline-block;
+  width: 75%;
+  min-width: 160px;
+  height: 100%;
+
+  background: lightblue;
+  border: solid;
+  vertical-align: middle;
 }
