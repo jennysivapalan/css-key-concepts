@@ -24,7 +24,7 @@ h1.welcome {
 .nav-bar {
   display: inline-flex;
   flex-direction: column;
-  width: 19%;
+  width: auto;
   height: 100%;
 
   vertical-align: top;
@@ -52,6 +52,21 @@ a:visited {
 }
 a:hover {
   text-decoration: underline;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: auto;
+  text-align: left;
+}
+
+.search button {
+  margin: 5px 0px 5px 100px;
+  padding: 5px;
+  width: 60px;
+  background-color: lightgrey;
 }
 
 .content-sections {
