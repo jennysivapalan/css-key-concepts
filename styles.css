@@ -72,12 +72,21 @@ a:hover {
 .content-sections {
   display: inline-block;
   width: 80%;
-  min-width: 160px;
+  min-width: 140px;
   height: 100%;
 
   background: #f0f0f0;
   border: solid;
   vertical-align: middle;
+  padding: 25px;
+}
+
+section.covid-update {
+  border-bottom: solid 1px black;
+}
+
+.covid-update strong {
+  color: purple;
 }
 
 h2,
