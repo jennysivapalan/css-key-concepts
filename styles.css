@@ -1,5 +1,5 @@
 body {
-  background-color: #cbc3e3;
+  background-color: #e0e0e0;
   margin: 0;
 }
 
@@ -22,19 +22,41 @@ h1.welcome {
 }
 
 .nav-bar {
-  display: inline-block;
-  width: 24%;
-  min-width: 40px;
+  display: inline-flex;
+  flex-direction: column;
+  width: 19%;
   height: 100%;
-  background: khaki;
 
-  border: solid;
   vertical-align: top;
+}
+
+.nav {
+  padding: 10px;
+  margin: auto;
+}
+
+.link {
+  padding: 15px 5px;
+  border-bottom: solid 1px black;
+
+  list-style-type: none;
+  text-align: left;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 .content-sections {
   display: inline-block;
-  width: 75%;
+  width: 80%;
   min-width: 160px;
   height: 100%;
 
