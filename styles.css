@@ -89,6 +89,18 @@ section.covid-update {
   color: purple;
 }
 
+section.address-details {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: solid 1px black;
+}
+
+.address-details img {
+  width: 50%;
+  margin: 5px;
+  border-radius: 8px;
+}
+
 h2,
 h3,
 p,
