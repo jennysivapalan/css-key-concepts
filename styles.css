@@ -60,7 +60,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   padding: 5px;
-  margin: auto;
+  margin: 0 0 0 12px;
   text-align: left;
 }
 
@@ -68,7 +68,10 @@ a:hover {
   margin: 5px 0px 5px 100px;
   padding: 5px;
   width: 60px;
-  background-color: lightgrey;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
 }
 
 .content-sections {
@@ -167,10 +170,21 @@ input[type="textarea"] {
   height: 100px;
 }
 
+input[type="search"] {
+  padding: 5px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin: 5px 0px 2px 0;
+}
+
 .submit-button {
   margin-left: 500px;
   width: 98px;
   height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 div,
