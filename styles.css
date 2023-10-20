@@ -19,8 +19,8 @@ h1.welcome {
   flex-direction: row;
   width: 200px;
   height: 500px;
-  margin: 0;
-  padding: 0%;
+  margin: 6px 0px 0px 0px;
+  padding: 5px;
 }
 
 .nav-bar {
@@ -73,7 +73,7 @@ a:hover {
 
 .content-sections {
   display: inline-block;
-  width: 80%;
+  width: 75%;
   min-width: 140px;
   height: 100%;
 
@@ -81,6 +81,7 @@ a:hover {
   border: solid;
   vertical-align: middle;
   padding: 25px;
+  margin: 10px 28px 10px 36px;
 }
 
 .sub-section {
@@ -172,9 +173,6 @@ input[type="textarea"] {
   height: 30px;
 }
 
-h2,
-h3,
-p,
 div,
 video {
   padding: 5px;
