@@ -109,56 +109,62 @@
           </video>
         </section>
 
-        <h3>Need advice or have some feedback for us?</h3>
+        <section>
+          <h3>Need advice or have some feedback for us?</h3>
 
-        <form>
-          <fieldset>
-            <legend>
-              Send us a message by filling out the form below and one of our
-              Receptionists will be in touch:
-            </legend>
+          <form>
+            <fieldset>
+              <legend>
+                Send us a message by filling out the form below and one of our
+                Receptionists will be in touch:
+              </legend>
 
-            <p>Are you completing this form on behalf of:</p>
+              <div>
+                <span class="form-filler"
+                  >Are you completing this form on behalf of:</span
+                >
+                <span class="form-filler-checkbox">
+                  <label for="self" class="self">Yourself </label>
+                  <input type="radio" name="person" value="self" />
+                  <label for="another" class="another">Someone else </label>
+                  <input type="radio" name="person" value="another" />
+                </span>
+              </div>
 
-            <label for="self">Yourself </label>
-            <input type="checkbox" id="self" name="self" />
+              <div class="row">
+                <label for="fname">First Name </label>
+                <input type="text" id="fname" name="fname" required />
+              </div>
 
-            <label for="another">Someone else </label>
-            <input type="checkbox" id="another" name="another" />
+              <div class="row">
+                <label for="lname">Last Name </label>
+                <input type="text" id="lname" name="lname" required />
+              </div>
 
-            <div>
-              <label for="fname">First Name </label>
-              <input type="text" id="fname" name="fname" required />
-            </div>
+              <div class="row">
+                <label for="dob">Date of Birth </label>
+                <input type="date" id="dob" name="dob" required />
+              </div>
 
-            <div>
-              <label for="lname">Last Name </label>
-              <input type="text" id="lname" name="lname" required />
-            </div>
+              <div class="row">
+                <label for="telephone">Telephone Number: </label>
+                <input type="tel" id="telephone" name="telephone" required />
+              </div>
 
-            <div>
-              <label for="dob">Date of Birth </label>
-              <input type="date" id="dob" name="dob" required />
-            </div>
+              <div class="row">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required />
+              </div>
 
-            <div>
-              <label for="telephone">Telephone Number: </label>
-              <input type="tel" id="telephone" name="telephone" required />
-            </div>
+              <div class="row">
+                <label for="message">Your query or message: </label>
+                <input type="textarea" id="message" name="message" required />
+              </div>
 
-            <div>
-              <label for="email">Email: </label>
-              <input type="email" id="email" name="email" required />
-            </div>
-
-            <div>
-              <label for="message">Your query or message: </label>
-              <input type="text" id="message" name="message" required />
-            </div>
-
-            <input type="submit" value="Submit" />
-          </fieldset>
-        </form>
+              <input type="submit" value="Submit" class="submit-button" />
+            </fieldset>
+          </form>
+        </section>
       </section>
     </div>
   </body>
