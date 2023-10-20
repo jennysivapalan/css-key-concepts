@@ -81,6 +81,10 @@ a:hover {
   padding: 25px;
 }
 
+.sub-section {
+  border-bottom: solid 1px black;
+}
+
 section.covid-update {
   border-bottom: solid 1px black;
 }
