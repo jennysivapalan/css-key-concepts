@@ -85,10 +85,6 @@ a:hover {
   border-bottom: solid 1px black;
 }
 
-section.covid-update {
-  border-bottom: solid 1px black;
-}
-
 .covid-update strong {
   color: purple;
 }
@@ -96,7 +92,6 @@ section.covid-update {
 section.address-details {
   display: flex;
   padding-bottom: 10px;
-  border-bottom: solid 1px black;
 }
 
 .address-details img {
