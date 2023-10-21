@@ -112,14 +112,14 @@ fieldset {
 legend {
   font-weight: bold;
   float: left;
-  margin-bottom: 0.5em;
+  margin: 5px;
   width: 100%;
 }
 
 .form-filler {
-  padding: 8px;
+  padding: 5px;
   display: inline-block;
-  width: 150px;
+  width: 160px;
   white-space: nowrap;
   margin-top: 20px;
 }
