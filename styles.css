@@ -15,12 +15,7 @@ h1.welcome {
 }
 
 .sections {
-  display: flex;
-  flex-direction: row;
-  width: 200px;
-  height: 500px;
   margin: 10px 0px 10px 0px;
-  padding: 5px;
 }
 
 .nav-bar {
@@ -28,7 +23,7 @@ h1.welcome {
   flex-direction: column;
   width: auto;
   height: 100%;
-
+  padding: 5px;
   vertical-align: top;
 }
 
@@ -83,7 +78,6 @@ a:hover {
   border: solid;
   vertical-align: middle;
   padding: 12px 25px 20px 25px;
-  margin: 10px 10px 10px 12x;
 }
 
 .sub-section {
