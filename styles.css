@@ -146,6 +146,13 @@ label[for="another"] {
   width: 150px;
 }
 
+input,
+.submit-button {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 input[type="text"],
 input[type="date"],
 input[type="tel"],
@@ -153,21 +160,15 @@ input[type="email"],
 input[type="textarea"] {
   width: 400px;
   padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: vertical;
 }
 
 input[type="textarea"] {
   height: 100px;
+  resize: vertical;
 }
 
 input[type="search"] {
   padding: 5px;
-  border-radius: 4px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
   margin: 5px 0px 2px 0;
 }
 
@@ -175,9 +176,6 @@ input[type="search"] {
   margin-left: 500px;
   width: 98px;
   height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
 }
 
 div,
